@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../imagen/fondobateria.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+}
+
+main {
+	margin-top: 32px;
+}
+
+.platillosLaterales {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.platilloIzquierdo {
+	margin-left: 298px;
+}
+
+.platilloDerecho {
+	margin-right: 286px;
+}
+
+.cajas {
+	display: flex;
+	justify-content: center;
+	margin-top: -150px;
+}
+
+.bajo {
+	display: flex;
+	justify-content: center;
+	margin-top: -112px;
+}
+
+.pedal {
+	display: flex;
+	justify-content: center;
+	margin-top: -112px;
+}
+
+.tomBaseDerecha {
+	margin-left: -67px;
+}
+
+.tomBaseIzquierda {
+	margin-right: -74px;
+}
+
+.pedal {
+	margin-left: 40px;
+	margin-top: -60px;
+}
+
+@media (max-width: 768px) {
+
+	.platillosLaterales {
+		flex-direction: row;
+		margin-bottom: 20%;
+	}
+
+	.platilloIzquierdo {
+		order: 1;
+		margin-left: 0;
+		margin-right: 10px;
+		width: 20%;
+	}
+
+	#platilloIzquierdo {
+		width: 287%;
+	}
+
+	.platilloDerecho {
+		order: 4;
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	#platilloDerecho {
+		width: 42%;
+		margin-left: 58%;
+	}
+
+	.cajas {
+		margin-top: -196px;
+		margin-right: 1px;
+	}
+
+	#cajaIzquierda,
+	#cajaderecha {
+		width: 25%;
+		margin-bottom: 103px;
+		margin-top: 60px;
+	}
+
+	.bajo {
+		margin-top: -142px;
+		margin-right: 93px;
+	}
+
+	#tomBaseIzquierda {
+		height: 108px;
+		margin-top: 7px;
+		margin-left: 347px;
+		margin-right: -27px;
+	}
+
+	#bajoUnico {
+		height: 114px;
+		width: 120px;
+		margin-top: 5px;
+		margin-bottom: 192px;
+	}
+
+	#tomBaseDerecha {
+		height: 108px;
+		margin-top: 7px;
+		margin-right: 260px;
+		margin-left: -25px;
+	}
+
+	.pedal {
+		margin-left: 108px;
+		margin-top: -119px;
+		width: 89px;
+		height: 52px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1185px) {
+	.platillosLaterales {
+		flex-direction: row;
+		margin-bottom: 20%;
+	}
+
+	.platilloIzquierdo {
+		order: 1;
+		margin-left: 0;
+		margin-right: 10px;
+		width: 20%;
+	}
+
+	#platilloIzquierdo {
+		width: 164%;
+	}
+
+	.platilloDerecho {
+		order: 4;
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	#platilloDerecho {
+		width: 53%;
+		margin-left: 47%;
+	}
+
+	.cajas {
+		margin-top: -374px;
+		margin-right: 7px;
+	}
+
+	#cajaIzquierda,
+	#cajaderecha {
+		width: 25%;
+		margin-bottom: 103px;
+		margin-top: 60px;
+	}
+
+	.bajo {
+		margin-top: -142px;
+		margin-right: 93px;
+	}
+
+	#tomBaseIzquierda {
+		height: 224px;
+		margin-top: -23px;
+		margin-left: 364px;
+		margin-right: -51px;
+	}
+
+	#bajoUnico {
+		height: 245px;
+		width: 246px;
+		margin-top: -36px;
+		margin-bottom: 192px;
+	}
+
+	#tomBaseDerecha {
+		height: 224px;
+		margin-top: -21px;
+		margin-right: 279px;
+		margin-left: -44px;
+	}
+
+	.pedal {
+		margin-left: 242px;
+		margin-top: -137px;
+		width: 123px;
+		height: 88px
+	}
+}
